@@ -18,7 +18,4 @@ export class CreateUserDto {
 
     @ApiProperty ({required: true, example: 1, description: 'Id del Tenant'})
     tenantId: number;
-
-
-
 }
